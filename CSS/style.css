@@ -18,8 +18,8 @@ a{
 }
 
 h1,h2,h3 {
-
-	padding-bottom: 20px;
+	
+padding-bottom: 20px;
 }
 
 p{
@@ -88,7 +88,7 @@ p{
 	color: white;
 }
 
-#navbar h1{
+#navbar .logo{
 	float: left;
 	padding: 20px;
 }
@@ -124,7 +124,7 @@ p{
 
 	color: white;
 	text-align: center;
-	padding-top: 170px;
+	padding-top: 120px;
 
 }
 
