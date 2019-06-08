@@ -196,9 +196,6 @@ p{
 	margin-top: -4rem;
 }
 
-#what h2{
-	padding-top: 6rem;
-}
 #what .items{
 	display: flex;
 	flex-direction: row;
@@ -401,6 +398,10 @@ p{
 	#what{
 		margin-top: -7rem;
 	}
+
+	#what h2{
+	padding-top: 6rem;
+}
 
 
 	#what .items {
