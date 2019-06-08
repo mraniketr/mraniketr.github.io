@@ -36,6 +36,14 @@ p{
 	color: #00A0B6;
 }
 
+.text-white{
+	color: white;
+}
+
+.text-black{
+	color: #333;
+}
+
 .bg-light{
 	background: #f4f4f4;
 	color: #333;
@@ -159,6 +167,7 @@ p{
 	flex-direction: column;
 	text-align: center;
 	justify-content: center;
+	text-shadow: 2px 2px 5px black;
 	align-items: center;
 	height: 100%;
 	padding: 0 2rem;
