@@ -71,6 +71,13 @@ p{
 	margin-bottom: 0.75rem;
 	line-height: 1.1;
 }
+.m-heading-2{
+	font-size: 2rem;
+	padding-top: .75rem;
+	line-height: 1.1;
+	padding-left: .75rem;
+}
+
 
 .lead{
 	font-size: 1.4rem;
@@ -332,12 +339,27 @@ p{
 	}
 }
 
+#contact .contact-content{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	padding:1rem;
+
+}
+
+#contact .contact-content a{
+	margin: 2px;
+}
+
 
 #main-footer{
 	background: #0f0f0f;
 	color: white;
 	text-align: center;
 }
+
+
+
 
 
 /*Smartphone*/
@@ -363,13 +385,7 @@ p{
 	flex-direction: column;
 	}
 
-	/*#about{
-		display: block;
-	}
-	#about .about-img{
-		display: none;
-	}
-*/
+
 	.logo{
 	
 	font-size: 18px;
