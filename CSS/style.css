@@ -363,13 +363,13 @@ p{
 	flex-direction: column;
 	}
 
-	#about{
+	/*#about{
 		display: block;
 	}
 	#about .about-img{
 		display: none;
 	}
-
+*/
 	.logo{
 	
 	font-size: 18px;
