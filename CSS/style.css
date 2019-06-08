@@ -367,11 +367,14 @@ p{
 @media(max-width: 500px)
 {
 	#navbar{
+		display: flex;
+		flex-direction: column;
 		align-items: center; 
-		height: 50px;
+		height: 90px;
 	}
 
 	#navbar ul{
+
 		align-items: center;
 		padding-top: 0.5rem;
 	}
