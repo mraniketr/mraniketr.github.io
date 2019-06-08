@@ -4,8 +4,10 @@
 	box-sizing: border-box;
 	margin: 0;
 	padding:0;
-	overflow-x: : hidden;
+	overflow-x:  hidden;
+	overflow-y: hidden;
 }
+
 
 body{
 	font-family: 'Roboto' ,sans-serif;
@@ -108,6 +110,10 @@ p{
 	padding: 1rem;
 }
 
+#navbar h1 a{
+	text-decoration: none;
+	color: #fff;
+}
 #navbar ul{
 	display: flex;
 	align-items: center;
@@ -327,15 +333,12 @@ p{
 @media(max-width: 500px)
 {
 	#navbar{
-		flex-direction: column;
 		align-items: center; 
-	}
-	#navbar .logo{
-		margin-bottom: .5rem;
-		text-align: center;
+		height: 50px;
 	}
 
 	#navbar ul{
+		align-items: center;
 		padding-top: 0.5rem;
 	}
 
@@ -354,5 +357,11 @@ p{
 	#about .about-img{
 		display: none;
 	}
+
+	.logo{
+	
+	font-size: 18px;
+	}
+
 
 }
