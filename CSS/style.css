@@ -33,7 +33,7 @@ p{
 	text-align: center;
 }
 .text-primary{
-	font-size: 1rem;
+
 	color: #00A0B6;
 }
 
@@ -132,6 +132,7 @@ p{
 	display: flex;
 	align-items: center;
 	list-style: none;
+
 }
 
 #navbar ul li a{
@@ -374,6 +375,7 @@ p{
 		height: 90px;
 		margin: auto;
 	}
+
 
 	#navbar ul{
 		flex: 1;
