@@ -46,6 +46,11 @@ p{
 	color: #fff;
 }
 
+.bg-dark2{
+	background: #333;
+	
+}
+
 
 .l-heading{
 	font-size: 4rem;
@@ -202,7 +207,7 @@ p{
 /*Timeline*/
 
 #timeline ul{
-	padding: 10px;
+	padding: 30px;
 }
 
 #timeline ul li{
@@ -210,7 +215,7 @@ p{
 	position: relative;
 	width: 6px;
 	margin: 0 auto;
-	padding-top: 50px;
+	padding-top: 20px;
 	background: #333;
 }
 
@@ -221,16 +226,21 @@ p{
 	padding: 1rem;
 	background: #93cb52;
 	transition: all 0.5s ease-in-out;
+	visibility: hidden;
+	opacity: 0;
 }
 
 
 #timeline ul li:nth-child(odd) div{
 	left: 40px;
+	transform: translate(200px,0);
 }
 
 #timeline ul li:nth-child(even) div{
 	left: -434px;
+	transform: translate(-200px,0);
 }
+
 
 #timeline ul li:after{
 	content: '';
@@ -268,6 +278,12 @@ p{
 }
 
 
+#timeline ul li.show div{
+	transform: none;
+	visibility: visible;
+	opacity: 1;
+
+}
 @media(max-width: 900px){
 	#timeline ul li div{
 		width: 250px;
@@ -295,3 +311,11 @@ p{
 	border-color: transparent #93cb52 transparent transparent;
 	}
 }
+
+
+#main-footer{
+	background: #0f0f0f;
+	color: white;
+	text-align: center;
+}
+
