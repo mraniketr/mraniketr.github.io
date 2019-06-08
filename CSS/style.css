@@ -368,25 +368,23 @@ p{
 
 @media(max-width: 500px)
 {
+
+
 	#navbar{
-		display: flex;
 		flex-direction: column;
 		align-items: center; 
 		height: 90px;
 		margin: auto;
 	}
 
-
-	#navbar ul{
-		flex: 1;
-		align-items: center;
-		padding-top: 0.5rem;
+	#navbar .logo{
+		margin-bottom: .5rem;
+		text-align: center;
 	}
-
-	#navbar ul li {
-		margin: auto;
+	#navbar ul li a{
+		padding: 0.25rem;
+		margin: 0 0.25rem;
 	}
-
 	#what{
 		margin-top: -7rem;
 	}
@@ -397,10 +395,6 @@ p{
 	}
 
 
-	.logo{
-	
-	font-size: 18px;
-	}
 
 
 }
