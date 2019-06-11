@@ -135,11 +135,11 @@ p{
 	text-decoration: none;
 	color: #fff;
 }
+
 #navbar ul{
 	display: flex;
 	align-items: center;
 	list-style: none;
-
 }
 
 #navbar ul li a{
@@ -161,7 +161,6 @@ p{
 	color: #fff;
 
 }
-
 
 
 #showcase .showcase-content{
@@ -364,6 +363,7 @@ p{
 @media(max-width: 500px)
 {
 
+	
 
 	#navbar{
 		flex-direction: column;
@@ -381,17 +381,19 @@ p{
 	#navbar ul{
 		margin-top: -40px;
 	}
+
 	#navbar ul li a{
 		padding: 0.25rem;
 		margin: 0 0.25rem;
 	}
+
 	#what{
-		margin-top: -7rem;
+		margin-top: -1rem;
 	}
 
 	#what h2{
-	padding-top: 6rem;
-}
+	padding-top: 4rem;
+	}
 
 	#what .items {
 	flex-direction: column;
