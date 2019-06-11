@@ -180,9 +180,6 @@ p{
 	/*background-color:rgba(0,0,0,0.4);*/
 }
 
-#what{
-	margin-top: -4rem;
-}
 
 #what .items{
 	display: flex;
@@ -218,6 +215,15 @@ p{
 #about .about-img{
 	background: url('../img/aniket.jpg') no-repeat
 	center center/cover;
+	max-width: 650px;
+}
+
+#about .icons{
+	margin-top: .5rem;
+}
+#about .icons a{
+	color: white;
+	
 }
 
 /*Timeline*/
@@ -387,9 +393,9 @@ p{
 		margin: 0 0.25rem;
 	}
 
-	#what{
+	/*#what{
 		margin-top: -1rem;
-	}
+	}*/
 
 	#what h2{
 	padding-top: 4rem;
