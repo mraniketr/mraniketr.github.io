@@ -361,7 +361,7 @@ p{
 }
 
 
-
+#contact .mobile { display: none }
 
 
 /*Smartphone*/
@@ -400,6 +400,14 @@ p{
 	#what .items {
 	flex-direction: column;
 	}
+
+	#contact .mobile {
+	 display: block; }
+
+	 #contact .desktop {
+	 display: none; }
+
+}
 
 	
 }
